@@ -1,0 +1,48 @@
+#       -------------- + ChestLock by Ziga Zajc + -------------   #
+#                                                                 #
+#                               Config                            #
+#                                                                 #
+#       -------------- + ---------------------- + -------------   #
+#
+#       You can use chat colors:
+#                ________________________
+#               |   code: | color:       |
+#               |________________________|
+#               |     &0  |	Black	     |
+#               |     &1  |	Dark Blue	 |
+#               |     &2  |	Dark Green	 |
+#               |     &3  |	Dark Aqua	 |
+#               |     &4  |	Dark Red	 |
+#               |     &5  |	Dark Purple	 |
+#               |     &6  |	Gold	     |
+#               |     &7  |	Gray	     |
+#               |     &8  |	Dark Gray	 |
+#               |     &9  |	Blue	     |
+#               |     &a  |	Green	     |
+#               |     &b  |	Aqua	     |
+#               |     &c  |	Red	         |
+#               |     &d  |	Light Purple |
+#               |     &e  |	Yellow	     |
+#               |     &f  |	White	     |
+#               |     &k  |	Obfuscated	 |
+#               |     &l  |	Bold	     |
+#               |     &m  |	Strikethrough|
+#               |     &n  |	Underline	 |
+#               |     &o  |	Italic	     |
+#               |     &r  |	Reset	     |
+#               |________________________|
+#
+#----------------------------------------------------------
+#                        Config
+#----------------------------------------------------------
+# Players will see messages in default language (Default is English) - Available options: English.
+# If you translate plugin into any other language feel free to send it and I will include it into this plugin.
+default_language: "English"
+# How do you want first line in the sign to look like? -> Be aware that if you change this after chests have been locked all chests with old identifier will be unprotected.
+chestlock_identifier: "&8[&1Private&8]"
+chestlock_error: "&8[&4Error]&8"
+# Locked blocks
+locked_blocks:
+  - CHEST
+  - FURNACE
+  - ENDER_CHEST

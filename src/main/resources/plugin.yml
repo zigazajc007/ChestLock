@@ -1,0 +1,7 @@
+name: ChestLock
+version: ${project.version}
+main: com.rabbitcompany.chestlock.ChestLock
+api-version: 1.13
+authors: [ Black1_TV ]
+description: Allow players to lock their chests and other blocks.
+website: rabbit-company.com
