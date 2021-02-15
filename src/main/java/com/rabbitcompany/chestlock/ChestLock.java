@@ -47,15 +47,8 @@ public final class ChestLock extends JavaPlugin {
     }
 
     private void mkdir(){
-
-        if(!this.co.exists()){
-            saveResource("config.yml", false);
-        }
-
-        if (!this.en.exists()) {
-            saveResource("Languages/English.yml", false);
-        }
-
+        if(!this.co.exists()) saveResource("config.yml", false);
+        if (!this.en.exists()) saveResource("Languages/English.yml", false);
     }
 
     public void loadYamls(){
